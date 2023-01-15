@@ -1,0 +1,30 @@
+.umumi{
+    width: 100vw;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+}
+
+.basliq{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .solteref{
+    padding-left: 170px;
+}
+
+.sagteref{
+    padding-right: 170px;
+} */
+
+.ikiteref{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconn{
+    display: flex;
+    justify-content: space-around;
+    
+}
