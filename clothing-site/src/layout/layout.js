@@ -1,18 +1,21 @@
-import React from 'react'
-import Footer from './footer/footer'
-import Header from './header/header'
-import Navbar from './navbar/navbar'
+import React from "react";
+import Footer from "./footer/footer";
+import Grey from "./greypiece/grey";
+import PrimarySearchAppBar from "./header/header";
 
+import Navbar from "./navbar/navbar";
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <div>
-        <Navbar/>
-        <Header/>
-        <main> {children} </main>
-        <Footer/>
+      <Navbar />
+      <PrimarySearchAppBar
+ />
+      <main> {children} </main>
+      <Grey />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

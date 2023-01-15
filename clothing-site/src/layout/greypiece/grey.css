@@ -1,0 +1,18 @@
+.grey{
+    background: lightgrey;
+}
+
+.iyirmidord{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iyirmiiki{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iyirmibir{
+    display: flex;
+    justify-content: space-around;
+}

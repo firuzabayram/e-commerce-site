@@ -3,6 +3,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="umumi">
+
       <div className="basliq">
         <h4>SUPPORT</h4>
         <h4>JOIN OUR COMMUNITY</h4>
